@@ -24,7 +24,7 @@ window['com.michaelbarany.bookmarklet'].execute({
         };
 
         // Inject a Cookie
-        Cookies .set('my_cookie', 'injected');
+        Cookies.set('my_cookie', 'injected');
 
         // Build floating window from template
         $('body').append(compiledTemplate(templateData));
