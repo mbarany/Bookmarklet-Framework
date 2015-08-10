@@ -1,6 +1,10 @@
 {
   "name": "Bookmarklet-Framework",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mbarany/Bookmarklet-Framework.git"
+  },
   "description": "JS and Node framework to easily build custom bookmarklets with dependencies of your choosing",
   "main": "",
   "dependencies": {
