@@ -121,7 +121,9 @@
             var _this = this;
 
             if (!files.length) {
-                return;
+                return new this.state.$.Deferred()
+                    .resolve()
+                    .promise();
             }
 
             return this.loadTemplate(files.shift()).then(function (data) {
